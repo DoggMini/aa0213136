@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *Lb1;
+
+@property (weak, nonatomic) IBOutlet UILabel *Lb2;
+
+- (IBAction)seData:(id)sender;
+@property (weak, nonatomic) IBOutlet UIDatePicker *DayPicker;
 
 
 @end
